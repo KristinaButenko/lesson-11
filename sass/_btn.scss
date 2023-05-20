@@ -9,7 +9,7 @@
   border: 3px solid transparent;
   border-radius: var(--border-radius);
   background: var(--accent-dark-color);
-  color: #fff;
+  color: var(--color-text);
   font-size: 18px;
   line-height: 1.5;
   cursor: pointer;
@@ -26,5 +26,41 @@
     border-color: var(--accent-dark-color);
     background: transparent;
   }
+}
+
+.send__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 250px;
+  min-height: 40px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  background: var(--accent-dark-color);
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1.5;
+  cursor: pointer;
+  border-color: var(--accent-dark-color);
+}
+
+.record__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 370px;
+  min-height: 40px;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  border-radius: var(--border-radius);
+  background: var(--accent-dark-color);
+  color: var(--color-text);
+  font-size: 18px;
+  line-height: 1.5;
+  cursor: pointer;
+  border-color:var(--accent-dark-color);
 }
 

@@ -29,3 +29,18 @@
     }
   }
 }
+
+.footer__nav {
+  &__list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+  }
+  &__link {
+    text-decoration: none;
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
