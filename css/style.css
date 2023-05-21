@@ -882,6 +882,7 @@ header {
   border-radius: var(--border-radius);
   font-size: 18px;
   line-height: 1.3;
+  padding-left: 20px;
 }
 .record .record__checkbox__input__label {
   font-weight: 500;
